@@ -74,7 +74,7 @@ static void GetSingleUser(RestClient client)
         string? title = data["title"].ToString();
         string? body = data["body"].ToString();
         Console.WriteLine("GET Single User Response:");
-        Console.WriteLine($"userId:{userId}\n Id:{id}\nTitle:{title}\nBody:{body}");
+        Console.WriteLine($"userId:{userId}\nId:{id}\nTitle:{title}\nBody:{body}");
 
     }
     else
