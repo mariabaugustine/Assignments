@@ -1,0 +1,7 @@
+2023-12-14 15:19:29.197 +05:30 [INF] GetSingleBookingId Test Started
+2023-12-14 15:19:30.666 +05:30 [INF] API Response: {"firstname":"Sally","lastname":"Wilson","totalprice":463,"depositpaid":false,"bookingdates":{"checkin":"2017-12-10","checkout":"2022-08-10"},"additionalneeds":"Breakfast"}
+2023-12-14 15:19:30.686 +05:30 [INF] User returned
+2023-12-14 15:19:30.688 +05:30 [INF] User FirstName matches with fetch
+2023-12-14 15:19:30.689 +05:30 [INF] User lastName matches with fetch
+2023-12-14 15:19:30.692 +05:30 [INF] User TotalPrice matches with fetch
+2023-12-14 15:19:30.692 +05:30 [INF] User DepositPaid matches with fetch

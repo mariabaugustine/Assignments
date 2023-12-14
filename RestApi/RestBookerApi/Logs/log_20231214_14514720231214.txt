@@ -1,0 +1,4 @@
+2023-12-14 14:51:47.315 +05:30 [INF] GetSingleBookingId Test Started
+2023-12-14 14:51:48.928 +05:30 [INF] Get All Booking Ids Test Started
+2023-12-14 14:51:54.135 +05:30 [INF] API Response: [{"bookingid":7},{"bookingid":2},{"bookingid":9},{"bookingid":8},{"bookingid":12},{"bookingid":11},{"bookingid":1},{"bookingid":6},{"bookingid":13},{"bookingid":14},{"bookingid":3},{"bookingid":5},{"bookingid":4},{"bookingid":10}]
+2023-12-14 14:51:54.144 +05:30 [INF] Get All Booking Ids test passed

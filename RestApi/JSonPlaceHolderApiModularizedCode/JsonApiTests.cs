@@ -28,12 +28,12 @@ namespace JSonPlaceHolderApiModularizedCode
             {
                 Assert.That(getSingeUserResponse.StatusCode, Is.EqualTo(System.Net.HttpStatusCode.OK));
                 Log.Information($"Api Response:{getSingeUserResponse.Content}");
-                var user = JsonConvert.DeserializeObject<UserData>(getSingeUserResponse.Content);
-                Assert.NotNull(user);
+                var item = JsonConvert.DeserializeObject<UserData>(getSingeUserResponse.Content);
+                Assert.NotNull(item);
                 Log.Information("User returned");
-                Assert.That(user.Id, Is.EqualTo(1));
+                Assert.That(item.Id, Is.EqualTo(1));
                 Log.Information(" id match with fetch");
-                Assert.That(user.UserId, Is.EqualTo(1));
+                Assert.That(item.UserId, Is.EqualTo(1));
                 Log.Information("User id match with fetch");
                 Log.Information("Get single item test passed");
                 test.Pass("Get single item test passed");
@@ -170,6 +170,7 @@ namespace JSonPlaceHolderApiModularizedCode
                 test.Fail("Get Non-Existing item test failed ");
             }
         }
+
 
     }
 }
