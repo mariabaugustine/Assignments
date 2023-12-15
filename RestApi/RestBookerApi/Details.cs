@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace RestBookerApi
 {
-    internal class Details
+    public class Details
     {
-        [JsonProperty("bookingid")]
-        public int BookingId { get; set; }
         [JsonProperty("firstname")]
         public string FirstName { get; set; }
         [JsonProperty("lastname")]
@@ -21,10 +19,24 @@ namespace RestBookerApi
         public string DepositPaid { get; set; }
         [JsonProperty("additionalneeds")]
         public string? AdditionalDetails { get; set; }
+        [JsonProperty("bookingdates")]
+        public BookingDate BookingDates { get; set; }
         
+        
+    }
+    public class BookingDate
+    {
         [JsonProperty("checkin")]
-        public string? CheckIn { get; set; }
+        public DateOnly CheckIn { get; set; }
         [JsonProperty("checkout")]
-        public string? CheckOut { get; set; }
+        public DateOnly CheckOut { get; set; }
+    }
+    public class CreateBookingRes
+    {
+        [JsonProperty("bookingid")]
+        public int BookingId { get; set; }
+
+        [JsonProperty("booking")]
+        public Details Booking  { get; set; }
     }
 }

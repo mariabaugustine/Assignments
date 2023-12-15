@@ -63,6 +63,7 @@ namespace JSonPlaceHolderApiModularizedCode
                 Assert.That(createItemResponse.StatusCode, Is.EqualTo(System.Net.HttpStatusCode.Created));
                 var item = JsonConvert.DeserializeObject<UserData>(createItemResponse.Content);
                 Assert.NotNull(item);
+                
                 Log.Information($"Api response:{createItemResponse.Content}");
                 Log.Information("Item created and returned");
                 test.Pass("Create item test passed");

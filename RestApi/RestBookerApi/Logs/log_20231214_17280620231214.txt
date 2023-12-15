@@ -1,3 +1,0 @@
-2023-12-14 17:28:06.083 +05:30 [INF] Create Token started
-2023-12-14 17:28:07.437 +05:30 [INF] API Response: {"token":"84005fc60d77da6"}
-2023-12-14 17:28:07.440 +05:30 [INF] Create Token Test Passed

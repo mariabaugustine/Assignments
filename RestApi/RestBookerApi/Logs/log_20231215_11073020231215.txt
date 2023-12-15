@@ -1,0 +1,6 @@
+2023-12-15 11:07:30.087 +05:30 [INF] CreateBooking Test Started
+2023-12-15 11:07:31.527 +05:30 [INF] API Response: {"bookingid":2880,"booking":{"firstname":"John","lastname":"Doe","totalprice":200,"depositpaid":true,"bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-15"},"additionalneeds":"Extra pillows"}
+2023-12-15 11:07:31.532 +05:30 [INF] User created and returned
+2023-12-15 11:07:31.533 +05:30 [INF] User First Name matches with fetch
+2023-12-15 11:07:31.533 +05:30 [INF] User Last Name matches with fetch
+2023-12-15 11:07:31.533 +05:30 [INF] CreateBooking test passed all Asserts
